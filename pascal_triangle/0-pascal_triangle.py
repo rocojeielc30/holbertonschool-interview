@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""Defines a function that builds Pascal's triangle."""
+
 def pascal_triangle(n):
+    """Return Pascal's triangle of n as a list of lists of integers."""
+    
     if n <= 0:
         triangle = []
         return triangle
