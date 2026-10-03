@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def pascal_triangle(n):
     if n <= 0:
         triangle = []
         return triangle
 
-    triangle = [[1]]  # default row built if n is <= 0
+    triangle = [[1]]  # default triangle built if n is <= 0
     while len(triangle) != n:
         prev_row = triangle[-1]  # the last row added
         new_row = [1]  # every row starts with 1
